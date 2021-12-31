@@ -37,20 +37,35 @@ npm run build
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
 
+Source Reference : https://www.youtube.com/watch?v=UU7MgYIbtAk
+SvelteKit Docs - https://kit.svelte.dev/docs
+Vite (SvelteKit Build Tool) - https://github.com/vitejs/vite
+PokeAPI - https://pokeapi.co/
+Tailwind Setup - way1- https://codechips.me/tailwindcss-sveltekit-the-easy-way/
+                 way2- https://jsco.dev/blog/how-to-set-up-tailwindcss-with-svelte-kit
+
 Vite is a build tool used by Svelte
+
 
 Create new svelte app
 npm init svelte@next
 
+========================|
+One Component has       |
+<style>                 |
+//scoped to component   |
+</style>                |
+                        |
+<div>                   |
+                        |
+</div>                  |
+                        |
+<script>                |
+</script>               |
+========================|
 
-One Component has
-<style>
-//scoped to component
-</style>
 
-<div>
+Tailwind Setup
+npm add -D tailwindcss autoprefixer postcss-load-config
 
-</div>
-
-<script>
-</script>
+.cjs -> common js
