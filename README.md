@@ -41,3 +41,16 @@ Vite is a build tool used by Svelte
 
 Create new svelte app
 npm init svelte@next
+
+
+One Component has
+<style>
+//scoped to component
+</style>
+
+<div>
+
+</div>
+
+<script>
+</script>
